@@ -25,9 +25,9 @@ class _HelloWorldScreen extends State<HelloWorldScreen> {
       color: Colors.white,
       child: Stack(children: [
         Positioned(
-          left: MediaQuery.of(context).size.width * 0.287,
+          left: MediaQuery.of(context).size.width * 0.284,
           width: MediaQuery.of(context).size.width * 0.428,
-          top: MediaQuery.of(context).size.height * 0.456,
+          top: MediaQuery.of(context).size.height * 0.261,
           height: MediaQuery.of(context).size.height * 0.086,
           child: Center(
               child: Container(
@@ -50,7 +50,7 @@ class _HelloWorldScreen extends State<HelloWorldScreen> {
                                 width: 137.000,
                                 height: 49.000,
                                 decoration: BoxDecoration(
-                                  color: Color(0xff0e1934),
+                                  color: Color(0xff2463ff),
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(30)),
                                 ),
